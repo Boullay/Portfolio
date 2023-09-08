@@ -175,7 +175,7 @@ h1 {
 .ListCard {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 2em;
+    gap: 1em;
     list-style: none;
     padding: 0;
 }
@@ -190,7 +190,7 @@ h1 {
 }
 
 .card img {
-    width: 360px;
+    width: 100%;
     height: 300px;
     object-fit: cover;
     border-radius: 15px;
@@ -357,7 +357,7 @@ hr {
         align-items: center;
     }
     .ListProjets {
-        margin: 0;
+        margin: 0 4%;
     }
     figure {
         margin: 0;
@@ -376,7 +376,6 @@ hr {
     }
     .ListCard {
         grid-template-columns: auto;
-        gap: 0;
     }
     #A-propos {
         width: 100%;
@@ -437,11 +436,8 @@ hr {
 @media screen and (max-width: 1100px ) and (min-width: 768px) {
     .ListCard {
         grid-template-columns: repeat(2, 1fr);
-        gap: 0;
     }
-    .ListProjets {
-        margin: 0;
-    }
+
     figure {
         margin: 0;
     }
