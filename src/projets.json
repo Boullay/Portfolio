@@ -1,0 +1,92 @@
+[
+    {
+        "id": "1",
+        "title": "Mise à jour de la page Riding Cities",
+        "cover": "/images/Riding-cities-accueil.png",
+        "description": "Actualisation de la page internet de Riding Cities, en créant une nouvelle section pour les membres du personnel. Ainsi que l'ajout d'un bouton pour télécharger les nouveaux plannings.",
+        "languages": "HTML5, CSS3",
+        "competences": "Maîtriser les bases de HTML5 et CSS3.",
+        "adress": "https://riding-cities.vercel.app/"
+    },
+    {
+        "id": "2",
+        "title": "Création d'une page d'accueil pour le site Booki",
+        "cover": "/images/Booki-accueil.png",
+        "description": "Mise en place d'après la maquette de la page d'accueil du futur site d'agence de voyage Booki.",
+        "languages": "HTML5, CSS3",
+        "competences": "Approfondissement des connaissances en HTML5 et CSS3.",
+        "adress": "https://boullay.github.io/Booki/"
+    },
+    {
+        "id": "3",
+        "title": "Développer des animations pour le site Ohmyfood",
+        "cover": "/images/Ohmyfood-accueil.png",
+        "description": "Création d'une interface responsive en mobile frist pour le site de reservation Ohmyfood, et mise en place de plusieurs animations en CSS.",
+        "languages": "HTML5, CSS3",
+        "competences": "Maîtriser les animations CSS",
+        "adress": "https://boullay.github.io/OpenClassrooms/"
+    },
+    {
+        "id": "4",
+        "title": "Introduction à JavaScript",
+        "cover": "/images/Print-it-accueil.png",
+        "description": "Mise en place d'un carrousel à défilement permanent à l'aide de JavaScript.",
+        "languages": "HTML5, CSS3, Javascript",
+        "competences": "Acquisition des bases sur JavaScript",
+        "adress": "https://boullay.github.io/Print-it/"
+    },
+    {
+        "id": "5",
+        "title": "Création d'une page web dynamique avec JavaScript",
+        "cover": "/images/Sophie-Bluel-accueil.png",
+        "description": "D'après une maquette, mise en place de la page web de Sophie Bluel, architecte d'intérieur. Gestion des calls API et de la connexion utilisateur. Ainsi que la création des fonctions dynamiques de filtrage, d'ajout, de modification ou de supression des projets.",
+        "languages": "HTML5, CSS3, JavaScript",
+        "competences": "Maîtriser les fonctions de JavaScript et les API",
+        "adress": "https://github.com/Boullay/Sophie_Bluel"
+    },
+    {
+        "id": "6",
+        "title": "Planification du développement du site MenuMaker",
+        "cover": "/images/Menu-Maker-accueil.png",
+        "description": "Découpage et planification des différentes tâches à réaliser pour la création du site MenuMaker by Qwenta, soigneusement expliquer dans un powerpoint pour le client.",
+        "languages": "Trello, Wakelet, PowerPoint",
+        "competences": "Maîtrise de la gestion des tâches, du temps et des personnes impliqués dans le projet",
+        "adress": "/Documents/Menu-Maker.pdf"
+    },
+    {
+        "id": "7",
+        "title": "Création d'une application web avec React",
+        "cover": "/images/Kasa-accueil.png",
+        "description": "Utilisation de create-react-app pour réaliser l'application web Kasa, application de réservation de logements dans la capitale",
+        "languages": "HTML5, SASS, React",
+        "competences": "Maîtriser les bases de React",
+        "adress": "https://kasa-lemon.vercel.app/"
+    },
+    {
+        "id": "8",
+        "title": "Optimiser le référencement d'un site de photographe",
+        "cover": "/images/Nina-Carducci-accueil.png",
+        "description": "Optimisation et correction du SEO du site d'une photographe professionnel.",
+        "languages": "Lighthouse",
+        "competences": "Maîtrise des bases du SEO",
+        "adress": "https://boullay.github.io/Nina_Carducci/"
+    },
+    {
+        "id": "9",
+        "title": "Débugger le site d'une agence d'événementiel",
+        "cover": "/images/77-events-accueil.png",
+        "description": "Correction des bugs d'affichage d'un site d'événementiel.",
+        "languages": "React",
+        "competences": "Maîtrise des bases des tests",
+        "adress": "https://77events-ten.vercel.app/"
+    },
+    {
+        "id": "10",
+        "title": "Implémenter le frontend d'une application bancaire avec React",
+        "cover": "/images/ArgentBank-accueil.png",
+        "description": "Intégration du code HTML dans React, et mise en place de React-Redux.",
+        "languages": "HTML5, CSS3, React, React-Redux",
+        "competences": "Maîtrise des bases de React-Redux",
+        "adress": "https://argent-bank-seven.vercel.app/"
+    }
+]

@@ -1,0 +1,487 @@
+html {
+    font-family: Lato, sans-serif;
+    overflow-x: hidden;
+    --main-color: goldenrod;
+    word-wrap: break-word;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+main {
+    overflow-x: hidden;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#root {
+    text-align: center;
+}
+h3 {
+    font-size: 35px;
+}
+/******HEADER*******/
+header {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.sticky-header {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .2);
+    background-color: white;
+}
+
+.Menu {
+    display: flex;
+    margin: 0;
+    align-items: center;
+}
+.bnt-Contact {
+    background-color: var(--main-color);
+    padding: 30px 40px;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all .2s;
+}
+.bnt-Contact:hover {
+    transform: scale(1.1);
+}
+header li{
+    list-style: none;
+    padding: 30px;
+}
+header a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+/*******************/
+/******PRESENTATION*********/
+.banniere {
+    opacity: 0.9;
+    width: 100%;
+    height: 800px;
+}
+.Presentation {
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    left: 24%;
+    width: 22%;
+    margin: 80px 0 100px 0;
+    z-index: 5;
+    top: 90px;
+    color: white;
+    text-align: start;
+}
+h1 {
+    font-size: 4rem;
+}
+.text-presentation {
+    font-size: 20px;
+}
+.bnt-Git {
+    border: 1px solid black;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    margin: 20px 0;
+    font-size: 25px;
+    transition: all ease-in-out 0.3s;
+    text-align: center;
+}
+.bnt-Git:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .3);
+}
+.left {
+    margin-right: 4px;
+}
+
+/****************************/
+/*******APROPOS********/
+#A-propos {
+    background-color: black;
+    margin: 170px 0;
+    color: var(--main-color);
+    width: 80%;
+    height: 400px;
+}
+.Block_portrait {
+    display: flex;
+    align-items: center;
+    margin: 0 10%;
+    padding: 15px;
+    position: relative;
+    bottom: 16%;
+}
+
+.Portrait {
+    width: 200px;
+    border: 30px solid var(--main-color);
+    transform: rotateZ(45deg);
+    position: absolute;
+    top: -7px;
+    left: 0;
+}
+.text-pos {
+    position: relative;
+}
+._h3 {
+    top: 50px;
+}
+._p {
+    left: 50%;
+    width: 50%;
+    top: 80px;
+}
+
+
+/**************************/
+/*******PROJETS**********/
+
+#Mes-projets {
+    background-color: antiquewhite;
+    padding-bottom: 60px;
+}
+.ListProjets {
+    margin: 100px 1% 0 1%;
+}
+.ListCard {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2em;
+    list-style: none;
+    padding: 0;
+}
+
+.card {
+    width: 100%;
+    height: 80%;
+    cursor: pointer;
+}
+.card figure {
+    height: 89%;
+}
+
+.card img {
+    width: 360px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 15px;
+    border: 1px solid black;
+}
+.Card_title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    font-weight: bold;
+    position: relative;
+    bottom: 290px;
+    opacity: 0;
+    transform: scale(1.1);
+    transition: all .3s ease-in-out;
+}
+.Card_title:hover {
+    opacity: 1;
+    transform: scale(.97);
+}
+.card span {
+    background-color: antiquewhite;
+    padding: 14px;
+}
+
+.ModalProjet {
+    position: fixed;
+    top: 15%;
+    left: 25%;
+    width: 50%;
+    z-index: 5;
+    background-color: white;
+    border: 3px solid var(--main-color);
+    border-radius: 45px;
+}
+.bnt_CloseModalProjet {
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    border: none;
+    border-radius: 3px;
+    background-color: var(--main-color);
+    font-size: 20px;
+    padding: 3px 10px;
+    cursor: pointer;
+
+}
+.ModalProjet__infoContainer {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 30px;
+}
+.ModalProjet__descriptionContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+.ModalProjet__title {
+    font-size: 25px;
+    font-weight: bold;
+}
+.ModalProjet__title hr {
+    margin-bottom: 10px;
+}
+
+.ModalProjet img {
+    width: 100%;
+    height: 400px;
+    border-radius: 42px 42px 0 0;
+    object-fit: cover;
+}
+.ModalProjet h3 {
+    font-size: 20px;
+}
+.ModalProjet__Visit {
+    margin-bottom: 30px;
+}
+.ModalProjet__Visit a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--main-color);
+}
+/*******************************/
+/********FORMATIONS*************/
+#Mes-formations {
+    width: 100%;
+    margin: 120px 0;
+}
+.Block_formation {
+    padding: 3% 10%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.ListCards_formation {
+    width: 100%;
+    padding-left: 10%;
+}
+.Card_formation {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    padding: 30px;
+    border-radius: 10px;
+    margin: 50px 0;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, .12);
+}
+.Formation-img {
+    width: 50%;
+}
+/*****************************/
+/********CONTACT************/
+hr {
+    border: 0;
+    border-top: 1px solid var(--main-color);
+    width: 80%;
+    margin-bottom: 40px;
+}
+.Contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.MyMail {
+    text-decoration: none;
+    color: var(--main-color);
+    font-size: 22px;
+    font-weight: bold;
+}
+.List-bnt-socialmedia {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    margin: auto;
+    padding-top: 20px;
+}
+.List-bnt-socialmedia a {
+    font-size: 35px;
+}
+
+/***************************/
+/*******FOOTER**************/
+.Footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .Block_formation {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .ListProjets {
+        margin: 0;
+    }
+    figure {
+        margin: 0;
+    }
+    .Block_formation img {
+        width: 100%;
+    }
+    .ListCards_formation {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0 0 30px 0;
+    }
+    .Card_formation {
+        margin: 20px 0;
+    }
+    .ListCard {
+        grid-template-columns: auto;
+        gap: 0;
+    }
+    #A-propos {
+        width: 100%;
+        height: 500px;
+        margin-top: 190px;
+    }
+    ._h3 {
+        top: 20px;
+    }
+    .Block_portrait {
+        flex-direction: column;
+        align-items: center;
+        left: 0;
+        bottom: -25px;
+    }
+    .Portrait {
+        width: 150px;
+        left: 30%;
+        top: 30px;
+    }
+    ._p {
+        left: 0;
+        top: 270px;
+        width: 100%;
+    }
+    .ModalProjet {
+        top: 10%;
+        left: 9%;
+        width: 80%;
+    }
+    .bnt-Git {
+        width: 30%;
+        position: relative;
+        left: 32%;
+        margin: 0;
+    }
+    h1 {
+        margin: 0;
+        font-size: 2rem;
+    }
+    h2 {
+        margin: 11px 0;
+    }
+    .Presentation {
+        width: 100%;
+        font-size: 14px;
+        top: 40px;
+        left: 5px;
+        flex-direction: column;
+    }
+    .banniere {
+        height: 400px;
+        width: 800px;
+    }
+
+}
+
+@media screen and (max-width: 1100px ) and (min-width: 768px) {
+    .ListCard {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0;
+    }
+    .ListProjets {
+        margin: 0;
+    }
+    figure {
+        margin: 0;
+    }
+    .Block_formation {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .Block_formation img {
+        width: 100%;
+    }
+    .ListCards_formation {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0 0 30px 0;
+    }
+    .Card_formation {
+        margin: 20px 0;
+    }
+    #A-propos {
+        width: 100%;
+    }
+    ._h3 {
+        top: 20px;
+    }
+    .Portrait {
+        top: -25px;
+    }
+
+    .Block_portrait {
+        bottom: -25px;
+        left: -25px;
+    }
+    .ModalProjet {
+        top: 15%;
+        left: 9%;
+        width: 80%;
+    }
+    .bnt-Git {
+        width: 30%;
+        position: relative;
+        left: 32%;
+        margin: 0;
+    }
+    h1 {
+        margin: 0;
+        font-size: 2rem;
+    }
+    h2 {
+        margin: 11px 0;
+    }
+    .Presentation {
+        width: 40%;
+        font-size: 14px;
+        top: 31px;
+        left: 60px;
+        flex-direction: column;
+    }
+    .banniere {
+        height: 400px;
+    }
+
+    
+}
