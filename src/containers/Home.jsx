@@ -10,19 +10,22 @@ function Home() {
             <div className="Presentation">
                 <h1>Louison<br />Colin</h1>
                 <h2>Intégrateuse Web.</h2>
-                <p className="text-presentation">Jeune diplômée de 29 ans, je suis fière de me présenter à vous en tant qu'intégrateuse web junior, et j'ai hâte de démarrer cette nouvelle aventure avec vous.</p>
+                <p className="text-presentation">Jeune diplômée de 29 ans, je suis fière de me présenter à vous en tant qu'intégrateuse web junior.</p>
                 <a href="https://github.com/Boullay" className="bnt-Git"><IconGit />GitHub</a>
             </div>
         </section>
 
         <section id="A-propos">
             <article>
-                <h3 className="text-pos _h3">À propos de moi</h3>
+                <h3 className="text-position _title">À propos de moi</h3>
                 <div className="Block_portrait">
                     <div>
                         <img src="/images/Portrait-min.jpg" alt="Portrait de Louison Colin" className="Portrait" />
                     </div>
-                    <p className="text-pos _p">Il m'a fallu du temps pour trouver ma voie, découvrir et apprendre à me connaître. Après moult détour, j'ai enfin découvert ma passion  une reconvertion professionnel Aujourd'hui </p>
+                    <div>
+                        <p className="text-position _text">Après une reconversion professionnelle dans le <strong>domaine du web</strong>, et plus précisément du <strong>Frontend</strong>, je suis actuellement intégrateuse web.</p>
+                        <p className="text-position _text">Grâce à ma formation en ligne, j'ai acquis les compétences nécessaires à la réalisation de vos projets.  Et j'ai hâte de démarrer cette nouvelle aventure avec vous.</p>
+                    </div>
                 </div>
             </article>
         </section>
@@ -42,17 +45,17 @@ function Home() {
                     <div className="Card_formation">
                         <h4>Intégrateuse Web</h4>
                         <span>2023</span>
-                        <span>OpenClassrooms</span>
+                        <span className="Formation_ecole">OpenClassrooms</span>
                     </div>
                     <div className="Card_formation">
                         <h4>Licence cinéma 3D</h4>
                         <span>2017</span>
-                        <span>L'école Multimédia</span>
+                        <span className="Formation_ecole">L'école Multimédia</span>
                     </div>
                     <div className="Card_formation">
                         <h4>Baccalauréat ES</h4>
                         <span>2013</span>
-                        <span>Lycée Darius Milhaud</span>
+                        <span className="Formation_ecole">Lycée Darius Milhaud</span>
                     </div>
                 </div>
             </div>

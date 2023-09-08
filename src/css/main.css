@@ -22,6 +22,22 @@ body {
 h3 {
     font-size: 35px;
 }
+.WrongPath {
+    width: 100%;
+    margin-top: 155px;
+    height: 600px;
+}
+.WrongPath h2 {
+    font-size: 130px;
+    margin: 40px 0;
+}
+.WrongPath p {
+    font-size: 20px;
+}
+.WrongPath a {
+    text-decoration: none;
+    color: black;
+}
 /******HEADER*******/
 header {
     display: flex;
@@ -132,16 +148,17 @@ h1 {
     top: -7px;
     left: 0;
 }
-.text-pos {
+.text-position {
     position: relative;
 }
-._h3 {
+._title {
     top: 50px;
 }
-._p {
+._text {
     left: 50%;
     width: 50%;
-    top: 80px;
+    top: 45px;
+    font-size: 20px;
 }
 
 
@@ -277,11 +294,15 @@ h1 {
 .Card_formation {
     display: flex;
     flex-direction: column;
-    width: 40%;
+    width: 50%;
     padding: 30px;
     border-radius: 10px;
     margin: 50px 0;
     box-shadow: 0 4px 4px rgba(0, 0, 0, .12);
+}
+.Formation_ecole {
+    font-weight: bold;
+    margin-top: 15px;
 }
 .Formation-img {
     width: 50%;
@@ -359,10 +380,10 @@ hr {
     }
     #A-propos {
         width: 100%;
-        height: 500px;
+        height: 620px;
         margin-top: 190px;
     }
-    ._h3 {
+    ._title {
         top: 20px;
     }
     .Block_portrait {
@@ -376,7 +397,7 @@ hr {
         left: 30%;
         top: 30px;
     }
-    ._p {
+    ._text {
         left: 0;
         top: 270px;
         width: 100%;
@@ -442,6 +463,7 @@ hr {
     }
     #A-propos {
         width: 100%;
+        height: 500px;
     }
     ._h3 {
         top: 20px;
