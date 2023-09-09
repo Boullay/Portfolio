@@ -430,6 +430,10 @@ hr {
     header li {
         padding: 10px;
     }
+    body {
+        overflow-x: hidden;
+        position: relative;
+    }
 }
 
 @media screen and (max-width: 1100px ) and (min-width: 768px) {
@@ -499,6 +503,8 @@ hr {
     .banniere {
         height: 400px;
     }
-
+    body {
+        overflow-x: hidden;
+    }
     
 }
