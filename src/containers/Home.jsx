@@ -14,7 +14,6 @@ function Home() {
                 <a href="https://github.com/Boullay" className="bnt-Git"><IconGit />GitHub</a>
             </div>
         </section>
-
         <section id="A-propos">
             <article>
                 <h3 className="text-position _title">À propos de moi</h3>

@@ -3,16 +3,6 @@ import IconLinkedin from "../assets/Icon-linkedin";
 import IconX from "../assets/Icon-X";
 
 function Contact() {
-    const onSubmit = (e) => {
-        e.preventdefault()
-
-        const form = e.target;
-        const elements = form.elements;
-        const email = elements.email.value;
-
-        alert(`Email: ${email}`);
-        form.reset();
-    }
     return(
         <div >
             <a href="mailto:louisoncolin@hotmail.fr" className="MyMail">louisoncolin@hotmail.fr</a>
