@@ -23,7 +23,7 @@ function Home() {
                     </div>
                     <div>
                         <p className="text-position _text">Après une reconversion professionnelle dans le <strong>domaine du web</strong>, et plus précisément du <strong>Frontend</strong>, je suis actuellement intégrateuse web.</p>
-                        <p className="text-position _text">Grâce à ma formation en ligne, j'ai acquis les compétences nécessaires à la réalisation de vos projets.  Et j'ai hâte de démarrer cette nouvelle aventure avec vous.</p>
+                        <p className="text-position _text">Grâce à ma formation en ligne, j'ai acquis les compétences nécessaires à la réalisation d'un <strong>site web en HTML5/CSS3</strong> ou d'une <strong>application en React</strong>.  Et j'ai hâte de démarrer cette nouvelle aventure avec vous.</p>
                     </div>
                 </div>
             </article>
