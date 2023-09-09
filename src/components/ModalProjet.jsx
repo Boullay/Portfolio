@@ -1,4 +1,3 @@
-import PropTypes from "prop-types";
 import IconClose from "../assets/Icon-close";
 
 
@@ -7,9 +6,8 @@ const ModalProjet = ({ projet, closeModal }) => (
     <div>
       <button className="bnt_CloseModalProjet" onClick={closeModal}><IconClose /></button>
     </div>
-    <div className="ModalProjet__imageContainer">
+    <div>
       <img
-        data-testid="card-image-testid"
         src={projet.cover}
         alt={projet.title}
       />
@@ -28,7 +26,7 @@ const ModalProjet = ({ projet, closeModal }) => (
           <h3>Compétences</h3>
           <div>{projet.competences}</div>
         </div>
-        <div className="ModalProjet__">
+        <div>
           <h3>Languages</h3>
           <div>{projet.languages}</div>
         </div>
@@ -41,9 +39,5 @@ const ModalProjet = ({ projet, closeModal }) => (
   </div>
 );
 
-ModalProjet.propTypes = {
-  // eslint-disable-next-line react/forbid-prop-types
-  projet: PropTypes.any.isRequired,
-}
 
 export default ModalProjet;

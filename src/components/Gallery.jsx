@@ -7,7 +7,7 @@ function Gallery() {
     const [project, setProject] = useState();
 
     return (
-        <div id="projets" className='ListProjets'>
+        <div className='ListProjets'>
             <ul className='ListCard'>
                 {projets.map((projet) =>
                     <Card
