@@ -11,7 +11,10 @@ function Home() {
                 <h1>Louison<br />Colin</h1>
                 <h2>Intégrateuse Web.</h2>
                 <p className="text-presentation">Jeune diplômée de 29 ans, je suis fière de me présenter à vous en tant qu'intégrateuse web junior.</p>
+                <div className="Bnt_container">
                 <a href="https://github.com/Boullay" className="bnt-Git"><IconGit />GitHub</a>
+                <a href="/Documents/Louison_Colin_CV.pdf" className="bnt-Git bnt-CV">Mon CV</a>
+                </div>
             </div>
         </section>
         <section id="A-propos">
