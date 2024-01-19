@@ -5,8 +5,8 @@ import '../css/main.css';
 
 function Home() {
     return (<>
-        <section>
-            <img src="/images/banniere-jaune-noir.avif" alt="bannière jaune et noir" className="banniere" />
+        <section className="banniere">
+            <img src="/images/banniere-jaune-noir.jpg" alt="bannière jaune et noir" className="banniere" />
             <div className="Presentation">
                 <h1>Louison<br />Colin</h1>
                 <h2>Intégrateuse Web.</h2>
@@ -41,7 +41,7 @@ function Home() {
             <h3>Mes formations</h3>
             <div className="Block_formation">
                 <div className="Formation-img">
-                    <img src="/images/yellow-business.avif" alt="Bureau de travaille jaune et noir" />
+                    <img src="/images/yellow-business.jpg" alt="Bureau de travaille jaune et noir" />
                 </div>
                 <div className="ListCards_formation">
                     <div className="Card_formation">
