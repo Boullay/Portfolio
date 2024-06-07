@@ -9,8 +9,8 @@ function Home() {
             <img src="/images/banniere-jaune-noir.jpg" alt="bannière jaune et noir" className="banniere" />
             <div className="Presentation">
                 <h1>Louison<br />Colin</h1>
-                <h2>Intégrateuse Web.</h2>
-                <p className="text-presentation">Jeune diplômée de 29 ans, je suis fière de me présenter à vous en tant qu'intégrateuse web junior.</p>
+                <h2>Intégrateur Web.</h2>
+                <p className="text-presentation">Jeune diplômée de 29 ans, je suis fière de me présenter à vous en tant que développeuse intégrateur web junior.</p>
                 <div className="Bnt_container">
                 <a href="https://github.com/Boullay" className="bnt-Git"><IconGit />GitHub</a>
                 <a href="/Documents/Louison_Colin_CV.pdf" className="bnt-Git bnt-CV">Mon CV</a>
@@ -25,7 +25,7 @@ function Home() {
                         <img src="/images/Portrait-min.jpg" alt="Portrait de Louison Colin" className="Portrait" />
                     </div>
                     <div>
-                        <p className="text-position _text">Après une reconversion professionnelle dans le <strong>domaine du web</strong>, et plus précisément du <strong>Frontend</strong>, je suis actuellement intégrateuse web.</p>
+                        <p className="text-position _text">Après une reconversion professionnelle dans le <strong>domaine du web</strong>, et plus précisément du <strong>Frontend</strong>, je suis actuellement intégrateur web.</p>
                         <p className="text-position _text">Grâce à ma formation en ligne, j'ai acquis les compétences nécessaires à la réalisation d'un <strong>site web en HTML5/CSS3</strong> ou d'une <strong>application en React</strong>.  Et j'ai hâte de démarrer cette nouvelle aventure avec vous.</p>
                     </div>
                 </div>
