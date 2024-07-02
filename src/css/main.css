@@ -223,7 +223,7 @@ h1 {
 
 .ModalProjet {
     position: fixed;
-    top: 15%;
+    top: 10%;
     left: 25%;
     width: 50%;
     z-index: 5;
@@ -272,7 +272,7 @@ h1 {
     font-size: 20px;
 }
 .ModalProjet__Visit {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 .ModalProjet__Visit a {
     text-decoration: none;
@@ -317,7 +317,7 @@ hr {
     border: 0;
     border-top: 1px solid var(--main-color);
     width: 80%;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 .Contact {
     display: flex;
