@@ -45,7 +45,7 @@ function Home() {
                 </div>
                 <div className="ListCards_formation">
                     <div className="Card_formation">
-                        <h4>Intégrateuse Web</h4>
+                        <h4>Intégratrice Web</h4>
                         <span>2023</span>
                         <span className="Formation_ecole">OpenClassrooms</span>
                     </div>
